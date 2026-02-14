@@ -4,7 +4,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "CI/CD Fully Automated!"
+    return "CI/CD Final Version"
+
 
 
 if __name__ == "__main__":
